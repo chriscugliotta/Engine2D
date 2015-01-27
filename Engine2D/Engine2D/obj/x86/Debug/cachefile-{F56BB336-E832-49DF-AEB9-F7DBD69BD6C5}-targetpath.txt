@@ -1,0 +1,6 @@
+Content\Shaders\Color.xnb
+Content\Shaders\Texture.xnb
+Content\Fonts\SegoeUIMono.xnb
+Content\Textures\grid.xnb
+Content\Textures\null.xnb
+Content\Textures\white.xnb

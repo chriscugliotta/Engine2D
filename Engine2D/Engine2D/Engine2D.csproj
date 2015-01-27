@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{691A9C22-F2CA-4386-B616-DF87873EC2B1}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine2D</RootNamespace>
+    <AssemblyName>Engine2D</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>b957e5ab-db8f-4e20-a2b0-38bd70ed0dd6</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Chris\Desktop\Engine2D\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS, IS_MONITORING, IS_ERROR_CHECKING, IS_DRAWING_PRIMITIVES, IS_LOGGING2, IS_LOGGING_METHODS2, IS_LOGGING_DRAW2, IS_LOGGING_INPUT2, IS_LOGGING_TRIGGERS2, IS_LOGGING_PHYSICS2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0F6FE2D5C4494D95960FFCBF171CB29179FB6011</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Engine2D_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\Serializer.cs" />
+    <Compile Include="Entity\GameObject.cs" />
+    <Compile Include="Entity\EngineObject.cs" />
+    <Compile Include="Entity\RecycledList.cs" />
+    <Compile Include="Graphics\FontManager.cs" />
+    <Compile Include="Custom\Custom.cs" />
+    <Compile Include="Debug\SpeedTest.cs" />
+    <Compile Include="Geometry\Rectangle.cs" />
+    <Compile Include="Geometry\Point.cs" />
+    <Compile Include="Graphics\RenderTargetManager.cs" />
+    <Compile Include="Graphics\SpriteTexture.cs" />
+    <Compile Include="Graphics\SpriteText.cs" />
+    <Compile Include="Graphics\SpriteLayer.cs" />
+    <Compile Include="Graphics\SpriteManager.cs" />
+    <Compile Include="Graphics\SpritePathFill.cs" />
+    <Compile Include="Integration\Graphics\WrappedMatrix.cs" />
+    <Compile Include="Integration\Graphics\WrappedColor.cs" />
+    <Compile Include="Integration\Graphics\WrappedContentManager.cs" />
+    <Compile Include="Integration\Graphics\Shaders\WrappedVerticalBlurShader.cs" />
+    <Compile Include="Integration\Graphics\Shaders\WrappedHorizontalBlurShader.cs" />
+    <Compile Include="Integration\Graphics\Shaders\WrappedShader.cs" />
+    <Compile Include="Integration\Graphics\Shaders\WrappedTextureShader.cs" />
+    <Compile Include="Integration\Graphics\WrappedBackBuffer.cs" />
+    <Compile Include="Integration\Graphics\WrappedFont.cs" />
+    <Compile Include="Integration\Graphics\WrappedEffectFile.cs" />
+    <Compile Include="Integration\Graphics\WrappedIndexBuffer.cs" />
+    <Compile Include="Integration\Graphics\WrappedVertexBuffer.cs" />
+    <Compile Include="Integration\Graphics\WrappedRenderTarget.cs" />
+    <Compile Include="Integration\Graphics\WrappedTexture.cs" />
+    <Compile Include="Integration\Graphics\WrappedGraphicsDevice.cs" />
+    <Compile Include="Geometry\Geometry.cs" />
+    <Compile Include="Physics\Sweep.cs" />
+    <Compile Include="Physics\ContactGraph.cs" />
+    <Compile Include="Physics\ContactManager.cs" />
+    <Compile Include="Physics\ForceAndTorque.cs" />
+    <Compile Include="Triggers\Pointer.cs" />
+    <Compile Include="Triggers\Condition.cs" />
+    <Compile Include="Triggers\Action.cs" />
+    <Compile Include="Triggers\Trigger.cs" />
+    <Compile Include="Triggers\TriggerManager.cs" />
+    <Compile Include="Engine\Camera.cs" />
+    <Compile Include="Engine\Clock.cs" />
+    <Compile Include="Engine\CameraManager.cs" />
+    <Compile Include="Engine\InputHandler.cs" />
+    <Compile Include="Engine\Player.cs" />
+    <Compile Include="Engine\PlayerManager.cs" />
+    <Compile Include="Engine\SceneManager.cs" />
+    <Compile Include="Graphics\Sprite.cs" />
+    <Compile Include="Triggers\Wrapper.cs" />
+    <Compile Include="User Interface\Button.cs" />
+    <Compile Include="User Interface\View.cs" />
+    <Compile Include="Physics\Impulse.cs" />
+    <Compile Include="Geometry\Box.cs" />
+    <Compile Include="Geometry\Circle.cs" />
+    <Compile Include="Geometry\ConvexPolygon.cs" />
+    <Compile Include="Physics\CollisionResult.cs" />
+    <Compile Include="Physics\Contact.cs" />
+    <Compile Include="Physics\ForceField.cs" />
+    <Compile Include="Physics\Body.cs" />
+    <Compile Include="Physics\PolygonalField.cs" />
+    <Compile Include="Physics\RadialField.cs" />
+    <Compile Include="Physics\RigidBody.cs" />
+    <Compile Include="Geometry\Polygon.cs" />
+    <Compile Include="Engine\Scene.cs" />
+    <Compile Include="Physics\UniversalField.cs" />
+    <Compile Include="Engine\MathHelper.cs" />
+    <Compile Include="Debug\Monitor.cs" />
+    <Compile Include="Debug\Log.cs" />
+    <Compile Include="Engine\Globals.cs" />
+    <Compile Include="Geometry\Interval.cs" />
+    <Compile Include="Geometry\LineSegment.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Geometry\Vector2.cs" />
+    <Compile Include="User Interface\ViewManager.cs" />
+    <Compile Include="Graphics\ShaderManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Integration\Graphics\VertexInput.cs" />
+    <Compile Include="z_Old\DrawHelper.cs" />
+    <Compile Include="z_Old\NameHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine2DContent\Engine2DContent.contentproj">
+      <Name>Engine2DContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
